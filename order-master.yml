@@ -1,4 +1,4 @@
-env: 321111
+env: 3
 server:
   port: 8765
 spring:
