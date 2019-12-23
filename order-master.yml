@@ -11,6 +11,9 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&allowMultiQueries=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
   jpa:
     show-sql: true
+  redis:
+    host: 106.54.140.88
+    port: 6379  
 girl:
  name: 李四
  age: 30
