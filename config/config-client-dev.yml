@@ -1,0 +1,7 @@
+#服务端口
+server:
+  port: 9901
+
+info:
+  app:
+    version: 1.0
