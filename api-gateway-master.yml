@@ -10,6 +10,6 @@ zuul:
     #简洁写法
 #   product: /myProduct/**
    #排除某些路由
-#  ignored-patterns:
-#    - /myProduct/msg
+  ignored-patterns:
+    - /myProduct/msg
 #    - /**/myProduct/msg2
