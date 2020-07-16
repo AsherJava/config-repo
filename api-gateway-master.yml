@@ -1,0 +1,15 @@
+server:
+  port: 9000
+zuul:
+  routes:
+    aaa:
+      path: /myProduct/**
+      serviceId: product
+      #敏感头设置：不过滤cookie
+      sensitiveHeaders:
+    #简洁写法
+#   product: /myProduct/**
+   #排除某些路由
+#  ignored-patterns:
+#    - /myProduct/msg
+#    - /**/myProduct/msg2
