@@ -7,6 +7,11 @@ zuul:
       serviceId: product
       #敏感头设置：不过滤cookie
       sensitiveHeaders:
+    portal_outh:
+      path: /portal_outh/**
+      serviceId: portal_outh
+      #敏感头设置：不过滤cookie
+      sensitiveHeaders:
     #简洁写法
 #   product: /myProduct/**
    #排除某些路由
